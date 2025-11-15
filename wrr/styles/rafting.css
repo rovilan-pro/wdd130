@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #3B3BB6; 
-    --secondary-color: #262679; 
+    --primary-color: #e9c46a; 
+    --secondary-color: #0073FF; 
     --accent1-color: #fff; 
-    --accent2-color: #264653; 
+    --accent2-color: #3B3BB6; 
     --heading-font: "Times New Roman", serif;
     --body-font: Arial, sans-serif;
 }
@@ -53,6 +53,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
+    color: #fff;
 }
 
 nav, p, section, article {

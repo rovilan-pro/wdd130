@@ -72,6 +72,7 @@ h1 {
     width: 100%;
     padding: 8px;
     text-align: center;
+    opacity: 0.7;
     background-color: var(--accent2-color);
     border: var(--accent1-color);
 }

@@ -24,7 +24,7 @@ header, main, footer {
 }
 
 header {
-    background: var(--accent1-color);
+    background: lightblue;
     padding: 20px;
     display: flex;
 }
@@ -33,7 +33,7 @@ header {
     font-size: 1.4rem;
     font-weight: bold;
     margin-left: 20px;
-    color: var(--primary-color);
+    color: var(--accent1-color);
     flex-grow: 1;        
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 .navigation a {
-    color: blue;
+    color: var(--accent1-color);
     text-decoration: none;
     background-color: var(--accent2-color);
     font-weight: bold;

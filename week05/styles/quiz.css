@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    gap: 1rem;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.column1 {
+    display: grid;
+    gap: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background-color: #00008B;   
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #0000b5;   
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid #ccc;
+}

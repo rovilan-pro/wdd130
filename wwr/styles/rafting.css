@@ -186,6 +186,12 @@ footer p {
     padding: 20px;
     border-radius: 3px;
     border-style: double;
+    background-color: var(--secondary-color);
+
+}
+
+.location h1 {
+    color: var(--accent1-color);
 }
 
 .contact-container {

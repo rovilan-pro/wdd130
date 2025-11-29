@@ -48,21 +48,31 @@
                 <label for="useremail">Email:</label>
                 <input type="text" id="useremail" name="useremail" required>
 
-                <label for="purpose">Message Purpose</label>
+                <label for="purpose-general">Message Purpose</label>
                 <div class="radio-group">
-                    <label><input type="radio" id="purpose" name="purpose"> General Inquiry</label>
-                    <label><input type="radio" id="purpose" name="purpose"> Reservation Question</label>
-                    <label><input type="radio" id="purpose" name="purpose"> Website Suggestion</label>
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general">
+                        General Inquiry
+                    </label>
+
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label for="purpose-website">
+                        <input type="radio" id="purpose-website" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
                 </div>
+
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" placeholder="Write your message here."></textarea>
 
-                <label class="newsletter">
-                    <input type="checkbox" name="subscribe">
-                    Please subscribe me to the monthly newsletter
-                </label>
 
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe" class="newsletter">Please subscribe me to the monthly newsletter</label>
 
                 <button type="submit">Get in touch!</button>
             </form>

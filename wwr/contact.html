@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Us and the rafting company name</title>
+    <title>Contact Us and the rafting company name</title>
     <meta name="description"
         content="About Us and the rafting company name Project for WDD130 by Rovilan Alec Dela Torre">
     <meta name="author" content="Rovilan Alec Dela Torre">
@@ -39,7 +39,7 @@
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1507.9573994378652!2d120.919846967623!3d14.048217483691074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1764405970787!5m2!1sen!2sph"
-                width="450" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                width="450" height="550" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <form class="contact">
@@ -49,23 +49,23 @@
                 <label for="useremail">Email:</label>
                 <input type="text" id="useremail" name="useremail" required>
 
-                <label>Message Purpose</label>
+                <label for="purpose">Message Purpose</label>
                 <div class="radio-group">
-                    <label><input type="radio" name="purpose"> General Inquiry</label>
-                    <label><input type="radio" name="purpose"> Reservation Question</label>
-                    <label><input type="radio" name="purpose"> Website Suggestion</label>
+                    <label><input type="radio" id="purpose" name="purpose"> General Inquiry</label>
+                    <label><input type="radio" id="purpose" name="purpose"> Reservation Question</label>
+                    <label><input type="radio" id="purpose" name="purpose"> Website Suggestion</label>
                 </div>
 
-                <label for="">Message:</label>
-                <textarea type="" id="message" name="message" rows="5"
-                    placeholder="Write your message here."></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here."></textarea>
 
                 <label class="newsletter">
                     <input type="checkbox" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
-                <button type="submit">Submit</button>
+
+                <button type="submit">Get in touch!</button>
             </form>
         </div>
 

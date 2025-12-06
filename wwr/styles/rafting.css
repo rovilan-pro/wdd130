@@ -99,7 +99,28 @@ footer p {
     width: 30px;
     height: 30px;
 }
-/* About Us */
+/*For Trips and Index*/
+.cta {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
+.cta ,p {
+    text-align: center;
+}
+
+.cta a {
+    width: 150px;
+    padding: 8px 12px;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*For About Us and Index*/
 .hero {
     position: relative;
 
@@ -140,6 +161,7 @@ footer p {
     border: var(--secondary-color);
 }
 
+/* About Us */
 .history {
     display: grid;
     grid-template-columns: 1fr 250px 1fr;
@@ -280,3 +302,137 @@ footer p {
     border-radius: 6px;
 }
 /* Contact Us */
+
+/* Index */
+/* Description Layout Section */
+.description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    border: thin #c0c0c0 solid;
+}
+  
+.description-item {
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+  
+.description-item img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+/* Newsletter Form Section */
+.contact-form {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+}
+  
+.contact-form form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+.contact-form label {
+    font-weight: bold;
+    text-align: left;
+}
+  
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+  
+.contact-form button {
+    padding: 0.75rem;
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+  
+.contact-form button:hover {
+    background-color: lightblue;
+}
+/* Index */
+
+/* Trips */
+
+.trips {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);;
+}
+
+.trips h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.trip {
+    flex: 1;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.trip p {
+    text-align: justify;
+    margin-top: auto;
+    font-weight: bold;
+    border: #1F1F1F solid;
+    text-align: center;
+}
+
+/* trips-table */
+.trips-table {
+    background-color: var(--secondary-color);
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.trips-table th, .trips-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.trips-table th {
+    background-color: var(--accent2-color);
+}
+/* Trips */
